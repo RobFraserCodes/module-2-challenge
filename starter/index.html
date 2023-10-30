@@ -1,45 +1,67 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name's Portfolio</title>
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
+    <!-- main logo / nav -->
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <!-- hero banner -->
+    <section class="hero-banner">
+        <div>
+            <h2>Cool subtitle here!</h2>
+        </div>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
+    <main class="page-wrapper">
+        <!-- about me -->
+        <section class="page-section" id="about">
+            <h2>About Me</h2>
+            <img src="avatar.jpg" alt="Your Avatar" />
+            <p>Introduce yourself here. This section can include your background, goals, and skills.</p>
+        </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
+        <!-- portfolio container -->
+        <section class="page-section" id="work">
+            <h2>Work</h2>
+            <div class="work-item">
+                <a href="https://example.com/project1" target="_blank">
+                    <img src="project1.jpg" alt="Project 1" />
+                    <h3>Project 1</h3>
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://example.com/project2" target="_blank">
+                    <img src="project2.jpg" alt="Project 2" />
+                    <h3>Project 2</h3>
+                </a>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <!-- contact -->
+        <section class="page-section contact" id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: hi@robfraser.dev</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/" target="_blank">LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/" target="_blank">GitHub Profile</a></p>
+        </section>
+    </main>
 </body>
 
 </html>
