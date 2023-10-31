@@ -26,6 +26,7 @@ header {
   color: white;
   padding: 1em;
   text-align: center;
+  display: flex;
 }
 
 .hero-banner {
